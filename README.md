@@ -7,7 +7,7 @@ Paper list for Compositionality (compositional reasoning, compositional generali
 - A Survey on Compositional Generalization in Applications [[Preprint 2023]](https://arxiv.org/abs/2302.01067)
 
 ## Compositional Reasoning
-### Benchmark and Dataset
+### Benchmarks and Datasets
 1. LLMs
 - Benchmarking and Understanding Compositional Relational Reasoning of LLMs [[AAAI 2025]](https://ojs.aaai.org/index.php/AAAI/article/view/34170)
 - CryptoX : Compositional Reasoning Evaluation of Large Language Models [[Preprint 2025]](https://arxiv.org/abs/2502.07813)
