@@ -10,9 +10,17 @@ Paper list for Compositionality (compositional reasoning, compositional generali
 ### Benchmarks and Datasets
 1. LLMs
 - Benchmarking and Understanding Compositional Relational Reasoning of LLMs [[AAAI 2025]](https://ojs.aaai.org/index.php/AAAI/article/view/34170)
-   *Test TestTestTestTestTestTestTestTestTestTestTestTestTestTest*
+
+  *It uses associative recall, knowledge recall and indirect object identification to generate generalized associative recall (GAR) tasks to evaluate compositional reasoning. Then it performs attribution patching method to discover the core circuits and vital attention heads.*
+
 - CryptoX : Compositional Reasoning Evaluation of Large Language Models [[Preprint 2025]](https://arxiv.org/abs/2502.07813)
+
+  *It performs instruction encryption and instruction transformation on the common benchmark X to generate Crypto-X benchmark. Encoding rules include base morse, emoji shuffle and emoji morse.*
+
 - StructTest: Benchmarking LLMs’ Reasoning through Compositional Structured Outputs [[Preprint 2025]](https://arxiv.org/abs/2412.18011)
+
+  *It evaluates composiotional reasoning through adding addtional rules on summarization, coding, HTML generation and mathematical reasoning, like <Domain Task, Format Rules>.*
+
 2. VLMs
 - ConMe: Rethinking Evaluation of Compositional Reasoning for Modern VLMs [[NeurIPS 2024]](https://proceedings.neurips.cc/paper_files/paper/2024/hash/28aad3b3b315d86910d7f4ee2867dfa4-Abstract-Datasets_and_Benchmarks_Track.html)
 - COLA: A Benchmark for Compositional Text-to-image Retrieval [[NeurIPS 2023]](https://proceedings.neurips.cc/paper_files/paper/2023/hash/917cd410aa55b61594fa2a6f6e5a9e94-Abstract-Datasets_and_Benchmarks.html)
