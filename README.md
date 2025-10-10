@@ -10,8 +10,7 @@ Paper list for Compositionality (compositional reasoning, compositional generali
 ### Benchmarks and Datasets
 1. LLMs
 - Benchmarking and Understanding Compositional Relational Reasoning of LLMs [[AAAI 2025]](https://ojs.aaai.org/index.php/AAAI/article/view/34170)
-
-  *Test TestTestTestTestTestTestTestTestTestTestTestTestTestTest*
+   *Test TestTestTestTestTestTestTestTestTestTestTestTestTestTest*
 - CryptoX : Compositional Reasoning Evaluation of Large Language Models [[Preprint 2025]](https://arxiv.org/abs/2502.07813)
 - StructTest: Benchmarking LLMs’ Reasoning through Compositional Structured Outputs [[Preprint 2025]](https://arxiv.org/abs/2412.18011)
 2. VLMs
