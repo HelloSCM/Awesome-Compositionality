@@ -7,7 +7,7 @@ Paper list for Compositionality (compositional reasoning, compositional generali
 - A Survey on Compositional Generalization in Applications [[Preprint 2023]](https://arxiv.org/abs/2302.01067)
 
 ## Compositional Reasoning
-### Benchmarks and Datasets
+### Benchmark and Dataset
 1. LLMs
 - Benchmarking and Understanding Compositional Relational Reasoning of LLMs [[AAAI 2025]](https://ojs.aaai.org/index.php/AAAI/article/view/34170)
 
@@ -17,9 +17,17 @@ Paper list for Compositionality (compositional reasoning, compositional generali
 
   *It performs instruction encryption and instruction transformation on the common benchmark X to generate Crypto-X benchmark. Encoding rules include base morse, emoji shuffle and emoji morse.*
 
+- Reasoning about Affordances: Causal and Compositional Reasoning in LLMs [[Preprint 2025]](https://arxiv.org/abs/2502.16606)
+
+  *It artificially desighs 20 questions to request LLMs to select unconventional objects to replace a typical tool for a particular purpose. Unconventional tool selection task requires LLMs to decompose the objects into their constituent abstract properties and determine which are superfluous and which are causally necessary.*
+
 - StructTest: Benchmarking LLMs’ Reasoning through Compositional Structured Outputs [[Preprint 2025]](https://arxiv.org/abs/2412.18011)
 
   *It evaluates composiotional reasoning through adding addtional rules on summarization, coding, HTML generation and mathematical reasoning, like <Domain Task, Format Rules>.*
+
+- Exploring the Compositional Deficiency of Large Language Models in Mathematical Reasoning Through Trap Problems [[EMNLP 2024]](https://aclanthology.org/2024.emnlp-main.915/)
+
+  *It manually creates trap problems in math problems, such as undefined concept and missing condition and investigates the influence of prompt (trap ↑ origin -), few-shot demonstration (trap ↑ origin ↑) and fine-tuning (trap ↑ origin ↓).*
 
 2. VLMs
 - ConMe: Rethinking Evaluation of Compositional Reasoning for Modern VLMs [[NeurIPS 2024]](https://proceedings.neurips.cc/paper_files/paper/2024/hash/28aad3b3b315d86910d7f4ee2867dfa4-Abstract-Datasets_and_Benchmarks_Track.html)
@@ -28,5 +36,17 @@ Paper list for Compositionality (compositional reasoning, compositional generali
 - CREPE: Can Vision-Language Foundation Models Reason Compositionally? [[CVPR 2023]](https://openaccess.thecvf.com/content/CVPR2023/html/Ma_CREPE_Can_Vision-Language_Foundation_Models_Reason_Compositionally_CVPR_2023_paper.html)
 - VLC-BERT: Visual Question Answering with Contextualized Commonsense Knowledge [[WACV 2023]](https://openaccess.thecvf.com/content/WACV2023/html/Ravi_VLC-BERT_Visual_Question_Answering_With_Contextualized_Commonsense_Knowledge_WACV_2023_paper.html)
 - Winoground: Probing Vision and Language Models for Visio-Linguistic Compositionality [[CVPR 2022]](https://openaccess.thecvf.com/content/CVPR2022/html/Thrush_Winoground_Probing_Vision_and_Language_Models_for_Visio-Linguistic_Compositionality_CVPR_2022_paper)
+
 3. Agents
 - WorkArena++: Towards Compositional Planning and Reasoning-based Common Knowledge Work Tasks [[NeurIPS 2024]](https://proceedings.neurips.cc/paper_files/paper/2024/hash/0b82662b6c32e887bb252a74d8cb2d5e-Abstract-Datasets_and_Benchmarks_Track.html)
+
+### Methodology
+
+1. LLMs
+- MAC-Tuning: LLM Multi-Compositional Problem Reasoning with Enhanced Knowledge Boundary Awareness [[EMNLP 2025]](https://arxiv.org/abs/2504.21773)
+
+  *It mainly focuses on hallucination in multi-problem setting and proposes a two-step supervised fine-tuning process to train the model of ground-truth answers and confidence.*
+
+  
+
+3. VLMs
