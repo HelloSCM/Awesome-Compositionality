@@ -1,13 +1,19 @@
-# Awesome-Compositionality
+# 📚Awesome-Compositionality
 Paper list for Compositionality (compositional reasoning, compositional generalization, compositional generation, etc.)
 
-## Survey
+
+
+
+## 📑Survey
 - Explain Before You Answer: A Survey on Compositional Visual Reasoning [[Preprint 2025]](https://arxiv.org/abs/2508.17298)
 - A Survey on Compositional Learning of AI Models: Theoretical and Experimental Practices [[TMLR 2024]](https://arxiv.org/abs/2406.08787)
 - A Survey on Compositional Generalization in Applications [[Preprint 2023]](https://arxiv.org/abs/2302.01067)
 
-## Compositional Reasoning
-### Benchmark
+
+
+
+## 🧠Compositional Reasoning
+### 📬Benchmark
 1. LLMs
 - Benchmarking and Understanding Compositional Relational Reasoning of LLMs [[AAAI 2025]](https://ojs.aaai.org/index.php/AAAI/article/view/34170)
 
@@ -47,22 +53,27 @@ Paper list for Compositionality (compositional reasoning, compositional generali
 
 
 
-### Analysis
+### 📈Analysis
 1. LLM
-- **Not All LLM Reasoners Are Created Equal** [[NeurIPS 2024 Workshop]](https://arxiv.org/abs/2410.01748)
+- ***Not All LLM Reasoners Are Created Equal** [[NeurIPS 2024 Workshop]](https://arxiv.org/abs/2410.01748)
 
   *It investigates the reasoning gap in 2-question-composition math problems, where the answer to the second problem depends on correctly answering the first problem. It thoroughly analyses the effect of cost-efficient and math-specialized models, instruction-following tuning, fine-tuning, generating code solution, finding that the reasoning gap is due to distraction from additional context and poor second-hop reasoning.*
 
 
 
 
-### Methodology
+### 🛠️Methodology
 
 1. LLMs
 - MAC-Tuning: LLM Multi-Compositional Problem Reasoning with Enhanced Knowledge Boundary Awareness [[EMNLP 2025]](https://arxiv.org/abs/2504.21773)
 
   *It mainly focuses on hallucination in multi-problem setting and proposes a two-step supervised fine-tuning process to train the model of ground-truth answers and confidence.*
 
-- **Understanding and Patching Compositional Reasoning in LLMs** [[ACL 2024 Findings]](https://aclanthology.org/2024.findings-acl.576/)
+- ***Understanding and Patching Compositional Reasoning in LLMs** [[ACL 2024 Findings]](https://aclanthology.org/2024.findings-acl.576/)
 
   *It finds that most compositional reasoning failures stem from the improperly generated or leveraged implicit reasoning results. Then it employs logit lens and an intervention experiment to locate multi-head self-attention modules within middle layers, which emerge as the linchpins in accurate generation and leveraing of implicit reasoning results. Finally, it develops a lightweight method to patch errors in compositional reasoning via editing the located MHSA modules.*
+
+
+
+
+## 🤖Compositional Generalization
