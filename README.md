@@ -55,9 +55,17 @@ Paper list for Compositionality (compositional reasoning, compositional generali
 
 ### 📈Analysis
 1. LLM
-- ***Not All LLM Reasoners Are Created Equal** [[NeurIPS 2024 Workshop]](https://arxiv.org/abs/2410.01748)
+- Not All LLM Reasoners Are Created Equal [[NeurIPS 2024 Workshop]](https://arxiv.org/abs/2410.01748)
 
   *It investigates the reasoning gap in 2-question-composition math problems, where the answer to the second problem depends on correctly answering the first problem. It thoroughly analyses the effect of cost-efficient and math-specialized models, instruction-following tuning, fine-tuning, generating code solution, finding that the reasoning gap is due to distraction from additional context and poor second-hop reasoning.*
+
+- Do Large Language Models Latently Perform Multi-Hop Reasoning? [[ACL 2024]](https://aclanthology.org/2024.acl-long.550/)
+
+  *LLMs show strong latent multi-hop reasoning evidence for some fact composition prompts, but evidence for the second hop and full traversal is moderate. The first hop scales with model size while the second does not, and this capability is highly contextual.*
+
+- Distributional Reasoning in LLMs: Parallel Reasoning Processes in Multi-Hop Reasoning [[Preprint 2024]](https://arxiv.org/abs/2406.13858)
+
+  *It shows that LLMs exhibit distributional reasoning in multi-hop reasoning, where their middle layers activate a distribution of potential intermediate answers, and these intermediate answers can be mapped to final answers via a simple linear transformation. This reasoning process persists even when LLMs lack necessary knowledge, and LLMs simultaneously utilize associative-like activation and structured propositional reasoning.*
 
 
 
@@ -69,7 +77,7 @@ Paper list for Compositionality (compositional reasoning, compositional generali
 
   *It mainly focuses on hallucination in multi-problem setting and proposes a two-step supervised fine-tuning process to train the model of ground-truth answers and confidence.*
 
-- ***Understanding and Patching Compositional Reasoning in LLMs** [[ACL 2024 Findings]](https://aclanthology.org/2024.findings-acl.576/)
+- Understanding and Patching Compositional Reasoning in LLMs [[ACL 2024 Findings]](https://aclanthology.org/2024.findings-acl.576/)
 
   *It finds that most compositional reasoning failures stem from the improperly generated or leveraged implicit reasoning results. Then it employs logit lens and an intervention experiment to locate multi-head self-attention modules within middle layers, which emerge as the linchpins in accurate generation and leveraing of implicit reasoning results. Finally, it develops a lightweight method to patch errors in compositional reasoning via editing the located MHSA modules.*
 
