@@ -55,13 +55,13 @@ Paper list for Compositionality (compositional reasoning, compositional generali
 
 ### 📈Analysis
 1. LLM
-- Not All LLM Reasoners Are Created Equal [[NeurIPS 2024 Workshop]](https://arxiv.org/abs/2410.01748)
-
-  *It investigates the reasoning gap in 2-question-composition math problems, where the answer to the second problem depends on correctly answering the first problem. It thoroughly analyses the effect of cost-efficient and math-specialized models, instruction-following tuning, fine-tuning, generating code solution, finding that the reasoning gap is due to distraction from additional context and poor second-hop reasoning.*
-
 - Do Large Language Models Latently Perform Multi-Hop Reasoning? [[ACL 2024]](https://aclanthology.org/2024.acl-long.550/)
 
   *LLMs show strong latent multi-hop reasoning evidence for some fact composition prompts, but evidence for the second hop and full traversal is moderate. The first hop scales with model size while the second does not, and this capability is highly contextual.*
+  
+- Not All LLM Reasoners Are Created Equal [[NeurIPS 2024 Workshop]](https://arxiv.org/abs/2410.01748)
+
+  *It investigates the reasoning gap in 2-question-composition math problems, where the answer to the second problem depends on correctly answering the first problem. It thoroughly analyses the effect of cost-efficient and math-specialized models, instruction-following tuning, fine-tuning, generating code solution, finding that the reasoning gap is due to distraction from additional context and poor second-hop reasoning.*
 
 - Distributional Reasoning in LLMs: Parallel Reasoning Processes in Multi-Hop Reasoning [[Preprint 2024]](https://arxiv.org/abs/2406.13858)
 
